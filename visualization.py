@@ -7,8 +7,8 @@ import numpy as np
 import altair as alt
 
 # CSV 파일 경로 설정
-results_file = r"C:\\Users\\user\\Desktop\\LMP_MILP_결과.csv"
-lmp_file = r"C:\\Users\\user\\Desktop\\LMP_권역별_결과.csv"
+results_file = r"C:\\Users\\user\\Desktop\\비교과\\인사캠\\발전기별 결과.csv"
+lmp_file = r"C:\\Users\\user\\Desktop\\비교과\\인사캠\\LMP_권역별_결과.csv"
 geojson_file = r"C:\\Users\\user\\Desktop\\비교과\\인사캠\\TL_SCCO_CTPRVN.json"
 
 
