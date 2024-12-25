@@ -3,3 +3,4 @@ folium
 pandas
 numpy
 altair
+streamlit_folium
