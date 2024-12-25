@@ -25,12 +25,13 @@ def load_data():
 
 results_df, lmp_df, geojson_data = load_data()
 
+# 데이터 시각화 - 표 및 그래프
+st.title("LMP 및 발전기별 출력량 시각화")
+
 # LMP 권역별 시각화
 st.header("권역별 LMP")
 st.dataframe(lmp_df)
 
-# 데이터 시각화 - 표 및 그래프
-st.title("LMP 및 발전기별 출력량 시각화")
 
 # 발전기별 출력량 및 비용 표시
 st.header("발전기별 출력량 및 비용")
